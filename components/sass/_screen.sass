@@ -1,0 +1,31 @@
+//screen.sass
+//====code for the device screen size==
+
+.john
+	@media screen and (max-width: $breakMedium)
+		background-size: 161px 271px
+
+.building
+	@media screen and (max-width: $breakMedium)
+		+imgSource(building_med_car, 100%, 100%)
+		background-size: 100%
+
+.shopper
+	@media screen and (max-width: $breakSmall)
+		display: none
+		
+.products
+	@media screen and (max-width: $breakSmall)
+		display: none
+	@media screen and (max-width: $breakLarge)
+		float: left
+		
+.door
+	@media screen and (max-width: $breakSmall)
+		+imgSource(door, 105px, 272px)
+		margin: 10% auto
+.small
+	display: none
+	@media only screen and (max-width: $breakSmall)
+		display: block
+

@@ -1,0 +1,31 @@
+// Mixins.sass
+// == Making groups of CSS declarations
+
+//For Safari 5.1 to 6.0 -webkit-
+//For Opera 11.1 to 12.0 -o-linear-
+//For Firefox 3.6 to 15 -moz-linear-
+
+=backGradient($g)
+	background: -webkit-linear-gradient($g)
+	background: -o-linear-gradient($g)
+	background: -moz-linear-gradient($g)
+	background: linear-gradient($g)
+	
+=imgSource($file, $wid, $hei)
+	background-image: url('../images/' + $file + '.png')
+	background-repeat: no-repeat
+	width: $wid
+	height: $hei
+	background-size: cover
+	
+	
+=clearfix
+	*zoom: 1
+	&:before
+		content: " "
+		display: table
+	&:after
+		content: " "
+		display: table
+		clear: both
+    

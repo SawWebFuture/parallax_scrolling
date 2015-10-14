@@ -1,0 +1,25 @@
+{
+  "name": "parallax_scrolling",
+  "version": "0.0.1",
+  "description": "Parallax Scrolling Website",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SawWebFuture/parallax_scrolling.git"
+  },
+  "author": "Scott Williams",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+	"gulp-browserify": "^0.5.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-uglify": "^1.4.2",
+    "gulp-util": "^3.0.6",
+    "if": "^2.0.0",
+    "uglify": "^0.1.5"
+  }
+}

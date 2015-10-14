@@ -1,3 +1,3 @@
 #Parallax Scrolling by Scott Williams
 
-This is pure parallax scrolling website. This is to create the illusion of 3D space
+This is a fun experimentation with parallax scrolling on a website. It is used to create the illusion of 3D space. Lets have fun!

@@ -1,0 +1,54 @@
+//base.sass
+//=====basic css code=====
+
+
+body
+	background-color: black
+	
+.container
+	+backGradient($containerGrad)
+	margin: 2% 0
+	color: white
+	+clearfix()
+	
+	
+h1
+	font-family: $fontUbuntu
+	text-transform: uppercase
+	font-size: 24px
+	margin-bottom: 20px
+
+
+.content
+	height: 100%
+	
+//shopper
+	
+.shopper
+	width: 25%
+	height: 400px
+	padding: 50px 0 50px 10%
+	float: left
+	
+.john
+	+imgSource(john_001, 221px, 371px)
+	
+	
+//products
+
+.products
+	width: 50%
+	height: 400px
+	padding: 50px 5% 50px 5%
+	float: right
+	
+.building
+	+imgSource(building_big_car_001, 531px, 380px)
+	background-size: 100%
+
+//small screen
+
+.small
+	padding: 10px
+	text-align: center
+
