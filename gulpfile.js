@@ -10,10 +10,10 @@ var gulp = require ('gulp'),
 	connect = require ('gulp-connect'),
 	concat = require('gulp-concat');
 
-var outputDir = 'site/production/';
-var cssStyle = 'compressed';
-//var outputDir = 'site/development/';
-//var cssStyle = 'expanded';
+//var outputDir = 'site/production/';
+//var cssStyle = 'compressed';
+var outputDir = 'site/development/';
+var cssStyle = 'expanded';
 
 var sassSources = ['components/sass/styles.sass'];
 var htmlSources = [outputDir + '*.html'];
